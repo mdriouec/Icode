@@ -28,12 +28,12 @@ int main() //ofc this is the main function
     if (isTrue == 1)
     {
         cout <<"\033[32m";
-        cout << "your win";
+        cout << "you won";
     }
     else if(isTrue == 0)
     {
         cout <<"\033[31m";
-        cout <<"your lose";
+        cout <<"you lose";
     }
     cout << "\n";
     return 0;
